@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --btnYellow :#000080;
+  --yellow: #000080;
+  --gray: #eeeeee;
+  font-family: 'Poppins', sans-serif;
+}
+
+.topBar {
+  display: block;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: var(--yellow);
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.topBar p {
+  width: 100%;
+  text-align: center;
+}
+
+
+.navigationBar {
+
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.menuBar {
+
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background: white;
+
+
+}
+
+.mainLinks {
+
+  height: 100%;
+}
+
+.menuBar ul {
+
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.menuBar ul li {
+  margin-left: 1rem;
+  /* background: pink; */
+  /* height: 70%; */
+}
+
+.menuBar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  /* background:yellow; */
+  padding: 2px 3px;
+}
+
+.menuBar ul li a:hover {
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+
+
+
+.landing {
+  margin-top: 5vh;
+  height: 70vh;
+  width: 100vw;
+  background: #000;
+  display: flex;
+  align-items: center;
+}
+
+
+.uploadBtns
+{
+  width: 50%;
+  /* padding: 20rem; */
+  padding-right: 10rem;
+  height: 100%;
+}
+
+.white{
+  /* width: 100%; */
+  text-align: left;
+  color: white;
+}
+
+.deliveryInfo {
+  height: 100%;
+  width: 50%;
+  padding-left: 6.3rem;
+  /* background: rgb(124, 112, 112); */
+
+}
+
+
+.information {
+  height: fit-content;
+  width: 50%;
+  margin-top: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+
+}
+
+.information h2 {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  padding: 5px;
+}
+
+
+.accessLinks {
+
+  height: fit-content;
+  width: 50%;
+
+}
+
+
+
+.btn {
+  margin-right: 1rem;
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+  font-size: 1.1rem;
+  /* font-weight: bold; */
+  background: none;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: var(--btnYellow);
+  color: white;
+
+
+}
+
+
+
+.flinks
+{
+  /* border: 2px solid wheat; */
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.linkCont{
+  height: 80%;
+  width: max-content;
+}
+.linkCont h4
+{
+  margin: 0;
+  padding:0.3rem 0rem;
+}
+
+.lcontent
+
+{
+/* border: 2px solid yellow; */
+  height: 50%;
+  width: 40%;
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainLogo
+{
+  /* border: 2px solid; */
+  height: 50%;
+  width: 50%;
+  overflow: hidden;
+}
+.mainLogo img
+{
+  height: 250px;
+  width: 250px;
+  margin:-76px -65px;
+}
+.secPic
+{
+  margin-top: 2rem;
+  width: 60%;
+  /* border: 2px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.rflex
+{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.center
+
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.center h1
+{
+  margin: 3rem;
+}
+
+
+.upload{
+  cursor: pointer;
+}
+
+.round 
+{
+  margin-top: 2rem;
+  padding:1rem 2rem;
+  border-radius:none;
+}
